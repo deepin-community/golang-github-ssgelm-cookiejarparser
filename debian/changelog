@@ -1,0 +1,11 @@
+golang-github-ssgelm-cookiejarparser (1.0.0-2) unstable; urgency=medium
+
+  * Bump version for source-only upload
+
+ -- Stephen Gelman <ssgelm@debian.org>  Tue, 05 Nov 2019 22:58:41 -0600
+
+golang-github-ssgelm-cookiejarparser (1.0.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #943726)
+
+ -- Stephen Gelman <ssgelm@debian.org>  Mon, 28 Oct 2019 10:44:59 -0500

@@ -1,0 +1,29 @@
+Source: golang-github-ssgelm-cookiejarparser
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders:
+ Stephen Gelman <ssgelm@debian.org>,
+Section: devel
+Testsuite: autopkgtest-pkg-go
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 12),
+ dh-golang,
+Build-Depends-Indep:
+ golang-any,
+ golang-golang-x-net-dev,
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-ssgelm-cookiejarparser
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-ssgelm-cookiejarparser.git
+Homepage: https://github.com/ssgelm/cookiejarparser
+Rules-Requires-Root: no
+XS-Go-Import-Path: github.com/ssgelm/cookiejarparser
+
+Package: golang-github-ssgelm-cookiejarparser-dev
+Architecture: all
+Depends:
+ ${misc:Depends},
+ golang-golang-x-net-dev,
+Description: Go library that parses a curl cookiejar file into a Go http.CookieJar
+ cookiejarparser is a Go library that parses a curl
+ (netscape) cookiejar file into a Go http.CookieJar.
+ This format is commonly used by cURL.
